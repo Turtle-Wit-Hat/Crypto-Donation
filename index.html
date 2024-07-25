@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donazioni in Criptovalute</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .crypto-address {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fai una Donazione in Criptovalute</h1>
+        <p>Puoi donare utilizzando uno dei seguenti indirizzi di criptovaluta:</p>
+        
+        <h2>Bitcoin (BTC)</h2>
+        <div class="crypto-address">bc1qe94zs7n5c96t753cw0gklmnuedxam5h7n59mf6</div>
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qe94zs7n5c96t753cw0gklmnuedxam5h7n59mf6" alt="QR Code BTC">
+        </div>
+
+        <h2>Ethereum (ETH)</h2>
+        <div class="crypto-address">0x6a50605cB54767251aF3dD33c18538dFE50b39DC</div>
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0x6a50605cB54767251aF3dD33c18538dFE50b39DC" alt="QR Code ETH">
+        </div>
+
+        <h2>Solana (SOL)</h2>
+        <div class="crypto-address">14Ka8fC7k2x24FJnqjcnDdJR7Z5GkaPSC4VfKZydK3Uy</div>
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=14Ka8fC7k2x24FJnqjcnDdJR7Z5GkaPSC4VfKZydK3Uy" alt="QR Code SOL">
+        </div>
+    </div>
+</body>
+</html>
